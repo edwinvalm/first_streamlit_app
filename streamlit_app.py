@@ -44,7 +44,7 @@ except URLError as e:
 # don't run anything past here while we troubleshoot
 #streamlit.stop()
 #import snowflake.connector
-streamlit.header("View our Furit List - Add your favorites!:")
+streamlit.header("View our Furit List - Add your favorites!")
 #Snowflake-related functions
 def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:
